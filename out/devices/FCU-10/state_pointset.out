@@ -1,0 +1,28 @@
+{
+  "timestamp" : "2022-11-17T13:16:44Z",
+  "version" : "1.4.0",
+  "sub_folder" : "pointset",
+  "sub_type" : "state",
+  "status" : {
+    "message" : "Multiple validation errors",
+    "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500)",
+    "category" : "validation.error.multiple",
+    "timestamp" : "2022-11-17T13:16:44Z",
+    "level" : 500
+  },
+  "pointset" : {
+    "missing" : [ "cooling_water_valve_percentage_sensor" ],
+    "extra" : [ "enabled" ]
+  },
+  "errors" : [ {
+    "message" : "Device has missing points: cooling_water_valve_percentage_sensor",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:16:44Z",
+    "level" : 500
+  }, {
+    "message" : "Device has extra points: enabled",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:16:44Z",
+    "level" : 500
+  } ]
+}

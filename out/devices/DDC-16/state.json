@@ -1,0 +1,17 @@
+{
+  "pointset" : {
+    "points" : { }
+  },
+  "system" : {
+    "last_config" : "1970-01-01T00:00:00Z",
+    "operational" : true,
+    "mode" : "initial",
+    "last_start" : "2022-11-17T10:22:49Z",
+    "serial_no" : "pubber-17949",
+    "software" : {
+      "firmware" : "v1"
+    }
+  },
+  "timestamp" : "2022-11-17T10:22:50Z",
+  "version" : "1.3.14"
+}

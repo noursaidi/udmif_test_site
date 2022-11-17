@@ -1,0 +1,9 @@
+{
+  "subFolder" : "validation",
+  "wasBase64" : "false",
+  "cloudRegion" : "us-central1",
+  "subType" : "event",
+  "deviceRegistryId" : "UK-ABC-XYZ",
+  "deviceId" : "DDC-40",
+  "projectId" : "udmif-arup1"
+}

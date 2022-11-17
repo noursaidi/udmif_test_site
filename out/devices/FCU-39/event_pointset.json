@@ -1,0 +1,54 @@
+{
+  "points" : {
+    "zone_air_temperature_low_alarm" : {
+      "present_value" : true
+    },
+    "cooling_water_valve_percentage_command" : {
+      "present_value" : 57
+    },
+    "fire_alarm_status" : {
+      "present_value" : true
+    },
+    "discharge_fan_percentage_command" : {
+      "present_value" : 5
+    },
+    "filter_dirty_alarm" : {
+      "present_value" : false
+    },
+    "heating_water_valve_percentage_command" : {
+      "present_value" : 12
+    },
+    "cooling_water_valve_percentage_sensor" : {
+      "present_value" : 42
+    },
+    "return_air_temperature_sensor" : {
+      "present_value" : 25
+    },
+    "return_air_heating_temperature_setpoint" : {
+      "present_value" : 28
+    },
+    "zone_air_temperature_high_alarm" : {
+      "present_value" : true
+    },
+    "return_air_cooling_temperature_setpoint" : {
+      "present_value" : 57
+    },
+    "return_air_temperature_alarm" : {
+      "present_value" : false
+    },
+    "discharge_air_temperature_sensor" : {
+      "present_value" : 23
+    },
+    "heating_water_valve_percentage_sensor" : {
+      "present_value" : 11
+    },
+    "filter_differential_pressure_sensor" : {
+      "present_value" : 29
+    },
+    "discharge_fan_fault_status" : {
+      "present_value" : false
+    }
+  },
+  "timestamp" : "2022-11-17T10:38:42.001Z",
+  "version" : "1.3.14"
+}

@@ -1,0 +1,34 @@
+{
+  "timestamp" : "2022-11-17T13:16:21Z",
+  "version" : "1.4.0",
+  "sub_folder" : "pointset",
+  "sub_type" : "event",
+  "status" : {
+    "message" : "Multiple validation errors",
+    "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500)",
+    "category" : "validation.error.multiple",
+    "timestamp" : "2022-11-17T13:16:21Z",
+    "level" : 500
+  },
+  "pointset" : {
+    "missing" : [ "cooling_water_valve_percentage_sensor" ],
+    "extra" : [ "enabled" ]
+  },
+  "errors" : [ {
+    "message" : "While converting to json node: 1 schema violations found",
+    "detail" : "While converting to json node: 1 schema violations found @Validator.validateMessage(Validator.java:437); 1 schema violations found; object instance has properties which are not allowed by the schema: [\"extraField\"]",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:16:21Z",
+    "level" : 500
+  }, {
+    "message" : "Device has missing points: cooling_water_valve_percentage_sensor",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:16:21Z",
+    "level" : 500
+  }, {
+    "message" : "Device has extra points: enabled",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:16:21Z",
+    "level" : 500
+  } ]
+}

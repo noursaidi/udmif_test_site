@@ -1,0 +1,10 @@
+{
+  "last_config" : "1970-01-01T00:00:00Z",
+  "last_start" : "2022-11-17T10:32:16Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "pubber-23453",
+  "software" : {
+    "firmware" : "v1"
+  }
+}
