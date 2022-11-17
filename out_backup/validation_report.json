@@ -1,0 +1,300 @@
+{
+  "timestamp" : "2022-11-17T10:41:21Z",
+  "version" : "1.4.0",
+  "summary" : {
+    "correct_devices" : [ "AHU-1", "AHU-2", "AHU-3", "AHU-4", "AHU-5", "AHU-6", "DDC-1", "DDC-2", "DDC-20", "DDC-21", "DDC-22", "DDC-23", "DDC-24", "DDC-25", "DDC-26", "DDC-27", "DDC-28", "DDC-29", "DDC-3", "DDC-30", "DDC-31", "DDC-32", "DDC-33", "DDC-34", "DDC-35", "DDC-36", "DDC-37", "DDC-38", "DDC-39", "DDC-4", "DDC-40", "DDC-41", "DDC-42", "DDC-43", "DDC-44", "DDC-45", "DDC-46", "DDC-47", "DDC-48", "DDC-49", "DDC-5", "DDC-50", "DDC-6", "DDC-7", "DDC-8", "DDC-9", "FCU-23", "FCU-24", "FCU-25", "FCU-26", "FCU-27", "FCU-28", "FCU-29", "FCU-30", "FCU-31", "FCU-32", "FCU-33", "FCU-34", "FCU-35", "FCU-36", "FCU-37", "FCU-38", "FCU-39", "FCU-40", "FCU-41", "FCU-42", "FCU-43", "FCU-44", "FCU-45", "FCU-46", "FCU-47", "FCU-48", "FCU-49", "FCU-50" ],
+    "extra_devices" : [ ],
+    "missing_devices" : [ "MTR-1", "MTR-10", "MTR-2", "MTR-3", "MTR-4", "MTR-5", "MTR-6", "MTR-7", "MTR-8", "MTR-9" ],
+    "error_devices" : [ "DDC-10", "DDC-11", "DDC-12", "DDC-13", "DDC-14", "DDC-15", "DDC-16", "DDC-17", "DDC-18", "DDC-19", "FCU-1", "FCU-10", "FCU-11", "FCU-12", "FCU-13", "FCU-14", "FCU-15", "FCU-16", "FCU-17", "FCU-18", "FCU-19", "FCU-2", "FCU-20", "FCU-21", "FCU-22", "FCU-3", "FCU-4", "FCU-5", "FCU-6", "FCU-7", "FCU-8", "FCU-9" ]
+  },
+  "devices" : {
+    "DDC-10" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-11" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-12" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-13" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-14" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-15" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-16" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-17" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-18" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "DDC-19" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-1" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-10" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-11" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500); validation.error.simple:While converting to json node: 2 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-12" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500); validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-13" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-14" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-15" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-16" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-17" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-18" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-19" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-2" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-20" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500); validation.error.simple:While converting to json node: 2 schema violations found (500); validation.error.simple:Device has missing points: cooling_water_valve_percentage_sensor (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-21" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-22" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:While converting to json node: 1 schema violations found (500); validation.error.simple:While converting to json node: 1 schema violations found (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-3" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-4" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-5" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-6" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-7" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-8" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    },
+    "FCU-9" : {
+      "status" : {
+        "message" : "Multiple validation errors",
+        "detail" : "validation.error.simple:Device has extra points: enabled (500); validation.error.simple:Device has extra points: enabled (500)",
+        "category" : "validation.error.multiple",
+        "timestamp" : "2022-11-17T10:41:21Z",
+        "level" : 500
+      }
+    }
+  }
+}

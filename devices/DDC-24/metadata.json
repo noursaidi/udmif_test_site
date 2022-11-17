@@ -1,0 +1,27 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2018-08-26T21:39:29.364Z",
+  "system": {
+    "location": {
+      "site": "UK-ABC-XYZ",
+      "section": "L00-R21",
+      "position": {
+        "x": 12.34,
+        "y": 10
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://1JSRZt$YX8WAI5X7EUCytf",
+        "site": "UK-ABC-XYZ",
+        "name": "DDC-24"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "pointset": {
+    "points": {}
+  }
+}

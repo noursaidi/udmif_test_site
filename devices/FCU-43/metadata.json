@@ -1,0 +1,77 @@
+{
+  "version": "1.3.14",
+  "timestamp": "2021-02-25T09:56:39Z",
+  "system": {
+    "location": {
+      "site": "UK-ABC-XYZ",
+      "section": "L00-R13",
+      "position": {
+        "x": 10,
+        "y": 20,
+        "z": -6789
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://TBC",
+        "site": "UK-ABC-XYZ",
+        "name": "FCU-43"
+      }
+    }
+  },
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "pointset": {
+    "points": {
+      "cooling_water_valve_percentage_sensor": {
+        "units": "percent"
+      },
+      "heating_water_valve_percentage_sensor": {
+        "units": "percent"
+      },
+      "cooling_water_valve_percentage_command": {
+        "units": "percent"
+      },
+      "heating_water_valve_percentage_command": {
+        "units": "percent"
+      },
+      "filter_differential_pressure_sensor": {
+        "units": "kilopascals"
+      },
+      "discharge_fan_percentage_command": {
+        "units": "percent"
+      },
+      "discharge_fan_fault_status": {
+        "units": "No-units"
+      },
+      "fire_alarm_status": {
+        "units": "No-units"
+      },
+      "return_air_temperature_sensor": {
+        "units": "degrees-celcius"
+      },
+      "discharge_air_temperature_sensor": {
+        "units": "degrees-celcius"
+      },
+      "return_air_cooling_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "return_air_heating_temperature_setpoint": {
+        "units": "degrees-celcius"
+      },
+      "return_air_temperature_alarm": {
+        "units": "No-units"
+      },
+      "zone_air_temperature_high_alarm": {
+        "units": "No-units"
+      },
+      "zone_air_temperature_low_alarm": {
+        "units": "No-units"
+      },
+      "filter_dirty_alarm": {
+        "units": "No-units"
+      }
+    }
+  }
+}

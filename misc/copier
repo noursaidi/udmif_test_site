@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function copy_device {
+    for i in $(seq 2 $2); do
+        mkdir devices/$1-$i
+        metadata=devices/$1-$i/metadata.json
+        cp devices/$1-1/metadata.json $metadata
+        jq ".system.physical_tag.asset.name = \"$1-$i\"" $metadata | sponge $metadata
+    done
+}
+
+copy_device AHU 6
+copy_device FCU 50
+copy_device MTR 10
+copy_device DDC 50

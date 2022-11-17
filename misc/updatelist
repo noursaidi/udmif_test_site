@@ -1,0 +1,19 @@
+#!/bin/bash
+# updates pubber opts with all devices in the site model (including devices which were delted from the list)
+OUT=$1
+shift
+
+rm -f $OUT.tmp && touch $OUT.tmp
+
+for d in $(gls -1v devices) ; do
+    device=${d/devices\//}
+    existing=$(grep "$device " $OUT)
+    if [[ -z $existing ]]; then
+        echo $device >> $OUT.tmp
+    else
+        echo $existing >> $OUT.tmp
+    fi
+done
+
+rm -f $OUT.backup
+mv $OUT.tmp $OUT

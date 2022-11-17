@@ -1,0 +1,16 @@
+{
+  "last_config" : "2018-08-26T21:39:29Z",
+  "last_start" : "2022-11-17T10:23:15Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "pubber-9985",
+  "software" : {
+    "firmware" : "v1"
+  },
+  "status" : {
+    "message" : "success",
+    "category" : "system.config.apply",
+    "timestamp" : "2022-11-17T10:23:18Z",
+    "level" : 300
+  }
+}

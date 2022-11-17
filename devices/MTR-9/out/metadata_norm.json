@@ -1,0 +1,84 @@
+{
+  "timestamp": "2021-02-25T09:56:39Z",
+  "version": "1.3.14",
+  "hash": "4554465a",
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "system": {
+    "location": {
+      "site": "UK-ABC-XYZ",
+      "section": "L01-R27",
+      "position": {
+        "x": 30.0,
+        "y": 40.0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "TBC",
+        "site": "UK-ABC-XYZ",
+        "name": "MTR-9"
+      }
+    },
+    "min_loglevel": 300
+  },
+  "pointset": {
+    "points": {
+      "apparent_power_sensor": {
+        "units": "no_units"
+      },
+      "energy_accumulator": {
+        "units": "kilowatt_hours"
+      },
+      "frequency_sensor": {
+        "units": "hertz"
+      },
+      "phase1_line_current_sensor": {
+        "units": "ampares"
+      },
+      "phase1_neutral_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase1_phase2_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase1_power_sensor": {
+        "units": "kilowatts"
+      },
+      "phase2_line_current_sensor": {
+        "units": "ampares"
+      },
+      "phase2_neutral_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase2_phase3_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase2_power_sensor": {
+        "units": "kilowatts"
+      },
+      "phase3_line_current_sensor": {
+        "units": "ampares"
+      },
+      "phase3_neutral_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase3_phase1_line_voltage_sensor": {
+        "units": "volts"
+      },
+      "phase3_power_sensor": {
+        "units": "kilowatts"
+      },
+      "power_sensor": {
+        "units": "kilowatts"
+      },
+      "powerfactor_sensor": {
+        "units": "no_units"
+      },
+      "reactive_power_sensor": {
+        "units": "no_units"
+      }
+    }
+  }
+}

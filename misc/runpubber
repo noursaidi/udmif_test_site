@@ -1,0 +1,24 @@
+#!/bin/bash
+PROJECT_ID=$1
+PUBBER_LIST=$2
+shift 2
+
+ROOT_PATH=$(realpath .)
+UDMIDIR="$HOME/udmi"
+PUBBER_OUT=/tmp/pubber.out
+
+cd $UDMIDIR
+ls
+
+
+while read -u 7 device_id pubber_opts; do
+    [[ device_id =~ '#' ]] && continue
+    
+    rm -f $PUBBER_OUT && touch $PUBBER_OUT
+    echo $device_id
+    serial_no=pubber-$RANDOM
+    bin/pubber $ROOT_PATH $PROJECT_ID $device_id $serial_no $pubber_opts 2>&1 | tee $PUBBER_OUT &
+    tail -f $PUBBER_OUT | grep -m 1 "sending test message #0"
+    kill $(ps ax | fgrep pubber | fgrep java | awk '{print $1}')
+
+done 7< $ROOT_PATH/$SRC_LIST

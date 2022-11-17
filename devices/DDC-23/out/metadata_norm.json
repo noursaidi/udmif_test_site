@@ -1,0 +1,29 @@
+{
+  "timestamp": "2018-08-26T21:39:29Z",
+  "version": "1.3.14",
+  "hash": "7aa59328",
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "system": {
+    "location": {
+      "site": "UK-ABC-XYZ",
+      "section": "L00-R21",
+      "position": {
+        "x": 12.34,
+        "y": 10.0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "ifc://1JSRZt$YX8WAI5X7EUCytf",
+        "site": "UK-ABC-XYZ",
+        "name": "DDC-23"
+      }
+    },
+    "min_loglevel": 300
+  },
+  "pointset": {
+    "points": { }
+  }
+}

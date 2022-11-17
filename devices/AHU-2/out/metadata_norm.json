@@ -1,0 +1,75 @@
+{
+  "timestamp": "2018-08-26T21:39:29Z",
+  "version": "1.3.14",
+  "hash": "03b12b7b",
+  "cloud": {
+    "auth_type": "RS256"
+  },
+  "system": {
+    "location": {
+      "site": "UK-ABC-XYZ",
+      "section": "TBC",
+      "position": {
+        "x": 10.0,
+        "y": 20.0
+      }
+    },
+    "physical_tag": {
+      "asset": {
+        "guid": "uuid://TBC",
+        "site": "UK-ABC-XYZ",
+        "name": "AHU-2"
+      }
+    },
+    "min_loglevel": 300
+  },
+  "pointset": {
+    "points": {
+      "cooling_coil_percentage_sensor": {
+        "units": "percent"
+      },
+      "cooling_coil_status": {
+        "units": "no_units"
+      },
+      "discharge_air_filter_differential_pressure_sensor": {
+        "units": "pacsals"
+      },
+      "discharge_fan_speed_percentage_sensor": {
+        "units": "percent"
+      },
+      "exhaust_air_flowrate_sensor": {
+        "units": "liters_per_second"
+      },
+      "exhaust_fan_speed_percentage_sensor": {
+        "units": "percent"
+      },
+      "frost_coil_status": {
+        "units": "no_units"
+      },
+      "heat_recovery_damper_percentage_sensor": {
+        "units": "percent"
+      },
+      "heating_water_valve_percentage_sensor": {
+        "units": "percent"
+      },
+      "heating_wheel_percentage_sensor": {
+        "units": "percent"
+      },
+      "return_air_filter_differential_pressure_sensor": {
+        "units": "pacsals"
+      },
+      "return_air_temperature_sensor": {
+        "units": "degrees-celcius"
+      },
+      "supply_air_flowrate_sensor": {
+        "units": "liters_per_second"
+      },
+      "supply_air_temperature_sensor": {
+        "units": "degrees-celcius"
+      },
+      "supply_air_temperature_setpoint": {
+        "units": "degrees-celcius"
+      }
+    }
+  }
+}

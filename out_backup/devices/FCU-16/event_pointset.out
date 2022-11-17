@@ -1,0 +1,22 @@
+{
+  "timestamp" : "2022-11-17T10:33:45Z",
+  "version" : "1.4.0",
+  "sub_folder" : "pointset",
+  "sub_type" : "event",
+  "status" : {
+    "message" : "Device has missing points: cooling_water_valve_percentage_sensor",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T10:33:45Z",
+    "level" : 500
+  },
+  "pointset" : {
+    "missing" : [ "cooling_water_valve_percentage_sensor" ],
+    "extra" : [ ]
+  },
+  "errors" : [ {
+    "message" : "Device has missing points: cooling_water_valve_percentage_sensor",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T10:33:45Z",
+    "level" : 500
+  } ]
+}
