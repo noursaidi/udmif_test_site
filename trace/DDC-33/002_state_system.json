@@ -1,0 +1,20 @@
+{
+  "hardware" : {
+    "make" : "BOS",
+    "model" : "pubber"
+  },
+  "last_config" : "2018-08-26T21:39:29Z",
+  "last_start" : "2022-11-17T10:26:28Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "pubber-17542",
+  "software" : {
+    "firmware" : "v1"
+  },
+  "status" : {
+    "message" : "success",
+    "category" : "system.config.apply",
+    "timestamp" : "2022-11-17T10:26:31Z",
+    "level" : 300
+  }
+}

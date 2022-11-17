@@ -1,0 +1,10 @@
+{
+  "deviceRegistryLocation" : "us-central1",
+  "deviceNumId" : "2762271766067218",
+  "subFolder" : "system",
+  "wasBase64" : "false",
+  "subType" : "state",
+  "deviceRegistryId" : "UK-ABC-XYZ",
+  "deviceId" : "FCU-5",
+  "projectId" : "udmif-arup1"
+}

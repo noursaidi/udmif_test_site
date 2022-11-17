@@ -1,0 +1,19 @@
+{
+  "points" : {
+    "cooling_coil_status" : { },
+    "heating_wheel_percentage_sensor" : { },
+    "cooling_coil_percentage_sensor" : { },
+    "supply_air_temperature_setpoint" : { },
+    "exhaust_air_flowrate_sensor" : { },
+    "frost_coil_status" : { },
+    "heat_recovery_damper_percentage_sensor" : { },
+    "discharge_fan_speed_percentage_sensor" : { },
+    "supply_air_temperature_sensor" : { },
+    "return_air_temperature_sensor" : { },
+    "discharge_air_filter_differential_pressure_sensor" : { },
+    "heating_water_valve_percentage_sensor" : { },
+    "supply_air_flowrate_sensor" : { },
+    "exhaust_fan_speed_percentage_sensor" : { },
+    "return_air_filter_differential_pressure_sensor" : { }
+  }
+}
