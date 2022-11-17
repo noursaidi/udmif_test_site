@@ -5,6 +5,6 @@
   "wasBase64" : "false",
   "deviceRegistryId" : "UK-ABC-XYZ",
   "subType" : "state",
-  "deviceId" : "FCU-40",
-  "projectId" : "udmif-arup1"
+  "projectId" : "udmif-arup1",
+  "deviceId" : "FCU-40"
 }

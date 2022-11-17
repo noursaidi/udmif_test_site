@@ -5,7 +5,7 @@
     "extra" : [ ]
   },
   "sub_folder" : "pointset",
-  "sub_type" : "event",
-  "timestamp" : "2022-11-17T13:15:47Z",
+  "sub_type" : "state",
+  "timestamp" : "2022-11-17T13:22:33Z",
   "version" : "1.4.0"
 }

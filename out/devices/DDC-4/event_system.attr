@@ -4,6 +4,6 @@
   "subFolder" : "system",
   "wasBase64" : "false",
   "deviceRegistryId" : "UK-ABC-XYZ",
-  "deviceId" : "DDC-4",
-  "projectId" : "udmif-arup1"
+  "projectId" : "udmif-arup1",
+  "deviceId" : "DDC-4"
 }

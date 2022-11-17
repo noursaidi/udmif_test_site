@@ -3,8 +3,8 @@
   "deviceNumId" : "2812526918547498",
   "subFolder" : "system",
   "wasBase64" : "false",
-  "deviceRegistryId" : "UK-ABC-XYZ",
   "subType" : "state",
+  "deviceRegistryId" : "UK-ABC-XYZ",
   "deviceId" : "DDC-5",
   "projectId" : "udmif-arup1"
 }

@@ -4,6 +4,6 @@
   "subFolder" : "system",
   "wasBase64" : "false",
   "deviceRegistryId" : "UK-ABC-XYZ",
-  "projectId" : "udmif-arup1",
-  "deviceId" : "FCU-8"
+  "deviceId" : "FCU-8",
+  "projectId" : "udmif-arup1"
 }

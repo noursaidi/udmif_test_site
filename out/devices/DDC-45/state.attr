@@ -3,8 +3,8 @@
   "deviceNumId" : "2625859507354303",
   "subFolder" : "update",
   "wasBase64" : "false",
-  "subType" : "state",
   "deviceRegistryId" : "UK-ABC-XYZ",
-  "projectId" : "udmif-arup1",
-  "deviceId" : "DDC-45"
+  "subType" : "state",
+  "deviceId" : "DDC-45",
+  "projectId" : "udmif-arup1"
 }

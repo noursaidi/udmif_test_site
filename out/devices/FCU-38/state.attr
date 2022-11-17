@@ -3,8 +3,8 @@
   "deviceNumId" : "2778590834947718",
   "subFolder" : "update",
   "wasBase64" : "false",
-  "subType" : "state",
   "deviceRegistryId" : "UK-ABC-XYZ",
+  "subType" : "state",
   "deviceId" : "FCU-38",
   "projectId" : "udmif-arup1"
 }

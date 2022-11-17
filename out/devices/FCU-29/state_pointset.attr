@@ -3,8 +3,8 @@
   "deviceNumId" : "2731639722471221",
   "subFolder" : "pointset",
   "wasBase64" : "false",
-  "subType" : "state",
   "deviceRegistryId" : "UK-ABC-XYZ",
+  "subType" : "state",
   "deviceId" : "FCU-29",
   "projectId" : "udmif-arup1"
 }

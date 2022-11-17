@@ -1,11 +1,7 @@
 {
   "errors" : [ ],
-  "pointset" : {
-    "missing" : [ ],
-    "extra" : [ ]
-  },
-  "sub_folder" : "pointset",
-  "sub_type" : "event",
-  "timestamp" : "2022-11-17T13:16:04Z",
+  "sub_folder" : "system",
+  "sub_type" : "state",
+  "timestamp" : "2022-11-17T13:23:04Z",
   "version" : "1.4.0"
 }

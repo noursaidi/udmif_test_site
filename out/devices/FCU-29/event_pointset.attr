@@ -4,6 +4,6 @@
   "subFolder" : "pointset",
   "wasBase64" : "false",
   "deviceRegistryId" : "UK-ABC-XYZ",
-  "deviceId" : "FCU-29",
-  "projectId" : "udmif-arup1"
+  "projectId" : "udmif-arup1",
+  "deviceId" : "FCU-29"
 }

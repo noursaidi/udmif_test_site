@@ -2,8 +2,8 @@
   "subFolder" : "validation",
   "wasBase64" : "false",
   "cloudRegion" : "us-central1",
-  "subType" : "event",
   "deviceRegistryId" : "UK-ABC-XYZ",
+  "subType" : "event",
   "projectId" : "udmif-arup1",
   "deviceId" : "FCU-23"
 }

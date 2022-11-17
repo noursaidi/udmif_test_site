@@ -4,6 +4,6 @@
   "cloudRegion" : "us-central1",
   "deviceRegistryId" : "UK-ABC-XYZ",
   "subType" : "event",
-  "projectId" : "udmif-arup1",
-  "deviceId" : "FCU-43"
+  "deviceId" : "FCU-43",
+  "projectId" : "udmif-arup1"
 }

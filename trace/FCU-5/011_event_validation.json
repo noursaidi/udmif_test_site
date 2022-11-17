@@ -1,7 +1,22 @@
 {
-  "errors" : [ ],
-  "sub_folder" : "system",
-  "sub_type" : "state",
-  "timestamp" : "2022-11-17T13:16:16Z",
+  "errors" : [ {
+    "message" : "Device has extra points: enabled",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:23:25Z",
+    "level" : 500
+  } ],
+  "pointset" : {
+    "missing" : [ ],
+    "extra" : [ "enabled" ]
+  },
+  "status" : {
+    "message" : "Device has extra points: enabled",
+    "category" : "validation.error.simple",
+    "timestamp" : "2022-11-17T13:23:25Z",
+    "level" : 500
+  },
+  "sub_folder" : "pointset",
+  "sub_type" : "event",
+  "timestamp" : "2022-11-17T13:23:25Z",
   "version" : "1.4.0"
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp" : "2022-11-17T13:16:06Z",
+  "timestamp" : "2022-11-17T13:23:10Z",
   "version" : "1.4.0",
   "sub_folder" : "system",
   "sub_type" : "state",
@@ -7,14 +7,14 @@
     "message" : "While converting to json node: 1 schema violations found",
     "detail" : "While converting to json node: 1 schema violations found @Validator.validateMessage(Validator.java:437); 1 schema violations found; object has missing required properties ([\"hardware\"])",
     "category" : "validation.error.simple",
-    "timestamp" : "2022-11-17T13:16:06Z",
+    "timestamp" : "2022-11-17T13:23:10Z",
     "level" : 500
   },
   "errors" : [ {
     "message" : "While converting to json node: 1 schema violations found",
     "detail" : "While converting to json node: 1 schema violations found @Validator.validateMessage(Validator.java:437); 1 schema violations found; object has missing required properties ([\"hardware\"])",
     "category" : "validation.error.simple",
-    "timestamp" : "2022-11-17T13:16:06Z",
+    "timestamp" : "2022-11-17T13:23:10Z",
     "level" : 500
   } ]
 }
