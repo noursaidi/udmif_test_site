@@ -1,0 +1,16 @@
+{
+  "hardware" : {
+    "make" : "BOS",
+    "model" : "pubber"
+  },
+  "last_config" : "2021-02-25T09:56:39Z",
+  "last_start" : "2022-11-18T11:10:45Z",
+  "mode" : "initial",
+  "operational" : true,
+  "serial_no" : "clean",
+  "software" : {
+    "firmware" : "v1"
+  },
+  "timestamp" : "2022-11-18T11:10:48Z",
+  "version" : "1.3.14"
+}
