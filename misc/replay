@@ -10,6 +10,7 @@ import argparse
 import json
 import time
 import datetime
+import random
 
 from google import auth
 from google.cloud import pubsub_v1
@@ -38,7 +39,10 @@ def main():
   messages_path = f'{validation_dir}/*/*.json'
   file_paths = glob.glob(messages_path, recursive=True)
 
-  print('Replaying messages in RANDOM ORDER')
+  print('SHUFFLING MESSAGES IN RANDOM ORDER AND REPLAYING MESSAGES')
+  file_paths = random.shuffle(file_paths)
+  print(file_paths)
+  sys.exit()
   total = len(file_paths)
   i = 0
   for message_path in file_paths:
@@ -65,7 +69,7 @@ def main():
     message_descriptor = '/'.join(message_path.rsplit('/', 2)[1:])
     future = publisher.publish(topic_path, payload, **attributes)
     print(f'published {i}/{total} {message_descriptor} ({future.result()})')
-    time.sleep(0.5) # avoid a message burst which can cause validator issues or UDMI-F issues
+    time.sleep(0.2) # avoid a message burst which can cause validator issues or UDMI-F issues
 
 if __name__ == "__main__":
   main()
