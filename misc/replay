@@ -66,7 +66,7 @@ def main():
     attributes.pop('wasBase64', None)
     
     message_descriptor = '/'.join(message_path.rsplit('/', 2)[1:])
-    future = publisher.publish(topic_path, payload, **attributes)
+    future = publisher.publish(topic_path, json.dumps(payload_json), **attributes)
     print(f'published {i}/{total} {message_descriptor} ({future.result()})')
     time.sleep(0.3) # avoid a message burst which can cause validator issues or UDMI-F issues
 
