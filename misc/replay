@@ -68,7 +68,7 @@ def main():
     message_descriptor = '/'.join(message_path.rsplit('/', 2)[1:])
     future = publisher.publish(topic_path, payload, **attributes)
     print(f'published {i}/{total} {message_descriptor} ({future.result()})')
-    time.sleep(0.2) # avoid a message burst which can cause validator issues or UDMI-F issues
+    time.sleep(0.3) # avoid a message burst which can cause validator issues or UDMI-F issues
 
 if __name__ == "__main__":
   main()
