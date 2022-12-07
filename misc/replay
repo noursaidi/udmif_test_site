@@ -40,7 +40,7 @@ def main():
   file_paths = glob.glob(messages_path, recursive=True)
   print(messages_path)
   print('SHUFFLING MESSAGES IN RANDOM ORDER AND REPLAYING MESSAGES')
-  file_paths = random.shuffle(file_paths)
+  random.shuffle(file_paths)
   print(file_paths)
   sys.exit()
   total = len(file_paths)
