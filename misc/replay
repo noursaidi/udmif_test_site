@@ -9,6 +9,7 @@ import sys
 import argparse
 import json
 import time
+import datetime
 
 from google import auth
 from google.cloud import pubsub_v1
@@ -48,6 +49,8 @@ def main():
     try:
       with open(message_path, 'r', encoding='utf-8') as f:
         payload = f.read().encode('utf-8')
+        payload_json = json.loads(payload)
+        payload_json['timestamp'] = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
       with open(attributes_path, 'r', encoding='utf-8') as f:
         attributes = json.load(f)
     except Exception:
@@ -62,7 +65,7 @@ def main():
     message_descriptor = '/'.join(message_path.rsplit('/', 2)[1:])
     future = publisher.publish(topic_path, payload, **attributes)
     print(f'published {i}/{total} {message_descriptor} ({future.result()})')
-    time.sleep(0.1) # avoid a message burst which can cause validator issues
+    time.sleep(0.5) # avoid a message burst which can cause validator issues or UDMI-F issues
 
 if __name__ == "__main__":
   main()
